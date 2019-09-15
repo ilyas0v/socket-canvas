@@ -18,7 +18,7 @@ function setup() {
     function(data) {
       console.log("Got: " + data.x + " " + data.y);
       // Draw a blue circle
-      fill(0,0,255);
+      fill(252,70,170);
       noStroke();
       ellipse(data.x, data.y, 5, 5);
     }
@@ -31,7 +31,7 @@ function draw() {
 
 function mouseDragged() {
   // Draw some white circles
-  fill(255);
+  fill(252,70,170);
   noStroke();
   ellipse(mouseX,mouseY,5,5);
   // Send the mouse coordinates
